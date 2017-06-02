@@ -1,11 +1,11 @@
-n,k = map(int,input().split())
-c = []
+n,p = map(int,input().split())
+d = []
 for i in range(1,n+1):
     t = int(input())
-    c.append(t)
+    d.append(t)
 count = 0
-for i in range(0,len(c)):
+for i in range(0,len(d)):
     
-    if c[i]%k == 0:
+    if d[i]%k == 0:
         count = count + 1
 print(count)
